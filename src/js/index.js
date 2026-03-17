@@ -28,7 +28,7 @@ export function applyDevBonus(staff) {
         const updatedEmployee = { ...employee };
 
         if (updatedEmployee.role === "Developer") {
-            updatedEmployee.salary *= 1.1;
+           updatedEmployee.salary = Math.round(updatedEmployee.salary * 1.1);git a
         }
 
         return updatedEmployee;
