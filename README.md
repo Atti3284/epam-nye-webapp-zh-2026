@@ -1,5 +1,11 @@
 # Webalkalmazás-fejlesztés 2026 - "ZH"
 
+## Első lépések
+1. Klónozzátok le a repository-t a saját gépetekre, például a `git clone https://github.com/attilagyongyosi/epam-nye-webapp-zh-2026.git` paranccsal.
+2. Lépjetek be a projekt könyvtárába.
+3. Telepítsétek fel NPM-mel a tesztfuttatáshoz szükséges package-eket az `npm install` vagy röviden `npm i` paranccsal.
+4. Nézzétek meg hogy le tudjátok-e futtatni a teszteket (most még kapni fogtok elbukó eredményeket) az `npm test` paranccsal.
+
 ## Feladatok
 Két lényeges feladat megoldását várjuk el:
 
