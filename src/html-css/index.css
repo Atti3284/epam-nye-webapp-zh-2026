@@ -10,5 +10,52 @@ html {
 }
 
 #employee-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     width: 100%;
+    padding: 20px 0;
+}
+
+
+.employee-card {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    width: 400px;
+}
+
+.employee-info h3 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.employee-info p {
+    font-size: 1.4rem;
+    color: #666;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
 }
